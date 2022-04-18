@@ -56,7 +56,7 @@ class _SecondPageState extends State<SecondPage> {
                 Padding(
                   padding: const EdgeInsets.all(15),
                   child: TextField(
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Colors.purpleAccent),
                     controller: nameController,
                     decoration: InputDecoration(
                         fillColor: Colors.purpleAccent,
@@ -70,13 +70,13 @@ class _SecondPageState extends State<SecondPage> {
                         enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(color: Colors.purpleAccent)),
                         labelText: 'Enter Name',
-                        labelStyle: TextStyle(color: Colors.white)),
+                        labelStyle: TextStyle(color: Colors.purpleAccent)),
                   ),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(15),
                   child: TextField(
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Colors.purpleAccent),
                     controller: sureNameController,
                     decoration: InputDecoration(
                         prefixIcon: Icon(
@@ -88,13 +88,13 @@ class _SecondPageState extends State<SecondPage> {
                         enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(color: Colors.purpleAccent)),
                         labelText: 'Enter Surname',
-                        labelStyle: TextStyle(color: Colors.white)),
+                        labelStyle: TextStyle(color: Colors.purpleAccent)),
                   ),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(15),
                   child: TextField(
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Colors.purpleAccent),
                     controller: emailIdController,
                     decoration: InputDecoration(
                         prefixIcon: Icon(
@@ -106,13 +106,13 @@ class _SecondPageState extends State<SecondPage> {
                         enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(color: Colors.purpleAccent)),
                         labelText: 'Enter Email',
-                        labelStyle: TextStyle(color: Colors.white)),
+                        labelStyle: TextStyle(color: Colors.purpleAccent)),
                   ),
                 ),
                 (Container(
                   margin: const EdgeInsets.all(15),
                   child: TextField(
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Colors.purpleAccent),
                     controller: passWordController,
                     obscureText: _obscureText,
                     decoration: InputDecoration(
@@ -138,13 +138,13 @@ class _SecondPageState extends State<SecondPage> {
                         enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(color: Colors.purpleAccent)),
                         labelText: 'Enter Password',
-                        labelStyle: TextStyle(color: Colors.white)),
+                        labelStyle: TextStyle(color: Colors.purpleAccent)),
                   ),
                 )),
                 (Container(
                   margin: const EdgeInsets.all(15),
                   child: TextField(
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Colors.purpleAccent),
                     controller: confrimpassWordController,
                     obscureText: _obscureText2,
                     decoration: InputDecoration(
@@ -170,7 +170,7 @@ class _SecondPageState extends State<SecondPage> {
                         enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(color: Colors.purpleAccent)),
                         labelText: 'Enter Password',
-                        labelStyle: TextStyle(color: Colors.white)),
+                        labelStyle: TextStyle(color: Colors.purpleAccent)),
                   ),
                 )),
                 Container(
@@ -192,7 +192,7 @@ class _SecondPageState extends State<SecondPage> {
                         padding: EdgeInsets.only(
                             top: 10, bottom: 10, right: 10, left: 10),
                         color: Colors.purpleAccent,
-                        textColor: Colors.white,
+                        textColor: Colors.purpleAccent,
                         child: Text(
                           'Register'.toUpperCase(),
                           style: TextStyle(fontSize: 12),
