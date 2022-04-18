@@ -34,7 +34,7 @@ class _NewPageState extends State<NewPage> {
               // width: MediaQuery.of(context).size.width * 0.100,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      image: AssetImage('images/pain.jpg'), fit: BoxFit.cover)),
+                      image: AssetImage('images/girl.png'), fit: BoxFit.cover)),
             ),
             // Container(
             //   margin: EdgeInsets.only(top: 25),

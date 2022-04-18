@@ -41,7 +41,7 @@ class _threedpageState extends State<threedpage> {
             // constraints: BoxConstraints.expand(height: 610),
             decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage('images/pain2.png'),
+                    image: AssetImage('images/girl.png'),
                     fit: BoxFit.fitWidth)),
             child: Center(
               child: Column(
@@ -49,7 +49,7 @@ class _threedpageState extends State<threedpage> {
                   Padding(
                     padding: const EdgeInsets.all(15),
                     child: TextField(
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(color: Colors.purpleAccent),
                       controller: emailController,
                       decoration: InputDecoration(
                           fillColor: Colors.purpleAccent,
@@ -65,13 +65,13 @@ class _threedpageState extends State<threedpage> {
                               borderSide:
                                   BorderSide(color: Colors.purpleAccent)),
                           labelText: 'Enter Email',
-                          labelStyle: TextStyle(color: Colors.white)),
+                          labelStyle: TextStyle(color: Colors.purpleAccent)),
                     ),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(15),
                     child: TextField(
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(color: Colors.purpleAccent),
                       controller: passController,
                       obscureText: _obscureText,
                       decoration: InputDecoration(
@@ -99,7 +99,7 @@ class _threedpageState extends State<threedpage> {
                               borderSide:
                                   BorderSide(color: Colors.purpleAccent)),
                           labelText: 'Enter Password',
-                          labelStyle: TextStyle(color: Colors.white)),
+                          labelStyle: TextStyle(color: Colors.purpleAccent)),
                     ),
                   ),
                   Container(
@@ -121,7 +121,7 @@ class _threedpageState extends State<threedpage> {
                           padding: EdgeInsets.only(
                               top: 10, bottom: 10, right: 10, left: 10),
                           color: Colors.purpleAccent,
-                          textColor: Colors.white,
+                          textColor: Colors.purpleAccent,
                           child: Text(
                             'Login'.toUpperCase(),
                             style: TextStyle(fontSize: 12),
